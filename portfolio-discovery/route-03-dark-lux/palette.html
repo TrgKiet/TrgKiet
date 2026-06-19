@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Route 03 – Dark Lux Palette</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700&family=Manrope:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    :root { --night:#0B0C10; --charcoal:#1A1C1F; --gilt:#C6A769; --slate:#6E7A86; --teal:#2B8C7E; }
+    * { box-sizing: border-box; }
+    body { margin:0; background: var(--night); color: #e8eaed; font: 16px/1.6 Manrope, system-ui, sans-serif; }
+    header { padding: 28px 24px 8px; border-bottom: 1px solid #2b3036; }
+    h1 { font-family: "Cormorant Garamond", serif; font-size: 40px; margin: 0 0 6px; color: #f0f2f4; }
+    p { margin: 0 0 12px; color: #aab2bc; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 14px; padding: 16px 24px 32px; }
+    .swatch { border-radius: 12px; border: 1px solid #2b3036; overflow: hidden; background: var(--charcoal); }
+    .chip { height: 92px; }
+    .meta { padding: 10px 12px; font-size: 14px; display: flex; justify-content: space-between; align-items: center; color: #c7ced6; }
+    .demo { padding: 16px; border-top: 1px solid #2b3036; }
+    .btn { display: inline-block; padding: 10px 14px; border-radius: 999px; border: 1px solid var(--gilt); color: var(--gilt); background: transparent; text-decoration: none; }
+    .btn:hover { color: #0b0c10; background: var(--gilt); }
+    .line { height: 1px; background: linear-gradient(90deg, transparent, var(--gilt), transparent); }
+    .card { background: var(--charcoal); border: 1px solid #2b3036; border-radius: 12px; padding: 14px; color: #cfd6de; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Route 03 – Dark Lux</h1>
+    <p>Dark canvas, gilt accents, understated motion.</p>
+  </header>
+  <main class="grid">
+    <div class="swatch">
+      <div class="chip" style="background:var(--night)"></div>
+      <div class="meta"><span>Night</span><code>#0B0C10</code></div>
+      <div class="demo"><div class="line"></div></div>
+    </div>
+    <div class="swatch">
+      <div class="chip" style="background:var(--charcoal)"></div>
+      <div class="meta"><span>Charcoal</span><code>#1A1C1F</code></div>
+      <div class="demo"><div class="card">Card on charcoal</div></div>
+    </div>
+    <div class="swatch">
+      <div class="chip" style="background:var(--gilt)"></div>
+      <div class="meta"><span>Gilt</span><code>#C6A769</code></div>
+      <div class="demo"><a class="btn" href="#">Primary CTA</a></div>
+    </div>
+    <div class="swatch">
+      <div class="chip" style="background:var(--slate)"></div>
+      <div class="meta"><span>Slate</span><code>#6E7A86</code></div>
+      <div class="demo"><div class="card" style="color:#111; background:#e8eaed">Light text example</div></div>
+    </div>
+    <div class="swatch">
+      <div class="chip" style="background:var(--teal)"></div>
+      <div class="meta"><span>Deep Teal</span><code>#2B8C7E</code></div>
+      <div class="demo"><a class="btn" style="border-color:var(--teal); color: var(--teal)" href="#">Secondary</a></div>
+    </div>
+  </main>
+</body>
+</html>

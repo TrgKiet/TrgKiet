@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Portfolio Discovery – Palettes</title>
+  <style>
+    :root { --bg: #0b0c10; --fg: #e8eaed; }
+    * { box-sizing: border-box; }
+    body { margin: 0; font: 16px/1.5 system-ui, -apple-system, Segoe UI, Roboto, Inter, Arial, sans-serif; background: var(--bg); color: var(--fg); }
+    header { padding: 24px 24px 8px; }
+    h1 { margin: 0 0 4px; font-size: 20px; }
+    p { margin: 0 0 12px; color: #b8bdc7; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 16px; padding: 16px 24px 32px; }
+    .card { background: #111317; border: 1px solid #20242b; border-radius: 12px; padding: 16px; }
+    .card h2 { margin: 0 0 10px; font-size: 16px; }
+    .swatches { display: grid; grid-template-columns: repeat(5, 1fr); gap: 8px; margin-bottom: 12px; }
+    .swatch { border-radius: 8px; height: 54px; display: flex; align-items: end; padding: 6px; font-size: 12px; color: #0b0c10; background: #fff; border: 1px solid #00000010; }
+    .swatch.dark { color: #e8eaed; }
+    a.btn { display: inline-block; padding: 8px 10px; border: 1px solid #2a3038; border-radius: 8px; color: var(--fg); text-decoration: none; background: #161a20; }
+    a.btn:hover { background: #1b2027; }
+    .foot { opacity: .7; font-size: 12px; padding: 0 24px 24px; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Portfolio Discovery – Palette Preview</h1>
+    <p>Open each route to see color tokens, usage, and references.</p>
+  </header>
+  <main class="grid">
+    <section class="card">
+      <h2>Route 01 – Editorial Minimal</h2>
+      <div class="swatches">
+        <div class="swatch dark" style="background:#111216">#111216</div>
+        <div class="swatch" style="background:#F8F7F4">#F8F7F4</div>
+        <div class="swatch" style="background:#EAE7E0">#EAE7E0</div>
+        <div class="swatch" style="background:#0A84FF">#0A84FF</div>
+        <div class="swatch" style="background:#E14B2E">#E14B2E</div>
+      </div>
+      <a class="btn" href="./route-01-editorial-minimal/palette.html">Open palette</a>
+    </section>
+
+    <section class="card">
+      <h2>Route 02 – Neo‑Brutalist</h2>
+      <div class="swatches">
+        <div class="swatch dark" style="background:#0F1115">#0F1115</div>
+        <div class="swatch" style="background:#F5F5F0">#F5F5F0</div>
+        <div class="swatch" style="background:#00F6A2">#00F6A2</div>
+        <div class="swatch" style="background:#FF3B81">#FF3B81</div>
+        <div class="swatch" style="background:#5B8CFF">#5B8CFF</div>
+      </div>
+      <a class="btn" href="./route-02-neo-brutalist/palette.html">Open palette</a>
+    </section>
+
+    <section class="card">
+      <h2>Route 03 – Dark Lux</h2>
+      <div class="swatches">
+        <div class="swatch dark" style="background:#0B0C10">#0B0C10</div>
+        <div class="swatch dark" style="background:#1A1C1F">#1A1C1F</div>
+        <div class="swatch" style="background:#C6A769">#C6A769</div>
+        <div class="swatch" style="background:#6E7A86">#6E7A86</div>
+        <div class="swatch" style="background:#2B8C7E">#2B8C7E</div>
+      </div>
+      <a class="btn" href="./route-03-dark-lux/palette.html">Open palette</a>
+    </section>
+  </main>
+  <div class="foot">Tip: open each route's README.md for typography, layout, and references.</div>
+</body>
+</html>
