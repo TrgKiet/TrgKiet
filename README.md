@@ -1,6 +1,6 @@
 # Hi, I'm Kiet Truong
 
-**Product Designer | UI/UX Designer | Learning Service Design**
+**Product Designer**
 
 I design digital products that connect user needs, business workflows, and scalable interface systems. My work focuses on turning complex requirements into clear, usable, and practical digital experiences across SaaS platforms, mobile applications, dashboards, and service-based products.
 
